@@ -80,27 +80,30 @@ The model is trained to classify input images into one of the 10 Amharic alphabe
 - Training vs Validation curves
 
 ## 📁 Project Structure
+
+```text
 Amharic-Alphabet-Family-Recognition-Using-Deep-Learning/
-│
-├── dataset/
-│
-├── preprocessing/
-│   └── preprocess.py
-│
-├── model/
-│   ├── model.py
-│   └── train.py
-│
-├── evaluation/
-│   └── evaluate.py
-│
-├── results/
-│   ├── accuracy.png
-│   ├── loss.png
-│   └── confusion_matrix.png
-│
-├── notebooks/
-│   └── experiment.ipynb
-│
-├── README.md
-└── requirements.txt
+|
++-- dataset/
+|
++-- preprocessing/
+|   +-- preprocess.py
+|
++-- model/
+|   +-- model.py
+|   +-- train.py
+|
++-- evaluation/
+|   +-- evaluate.py
+|
++-- results/
+|   +-- accuracy.png
+|   +-- loss.png
+|   +-- confusion_matrix.png
+|
++-- notebooks/
+|   +-- experiment.ipynb
+|
++-- requirements.txt
++-- README.md
+```
